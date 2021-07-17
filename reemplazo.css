@@ -1,0 +1,224 @@
+
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+
+body {margin: 0px; padding: 0px; color: #fff; background: red;}
+html {scroll-behavior: smooth;} 
+header {background: #007fff;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px) and (min-width: 801px) {
+body {margin: 0; padding: 0; background: red; color: #fff; width:px;
+
+
+}
+html {scroll-behavior: smooth; } 
+header {background: #007fff; overflow: hidden;}
+
+ #FEL {
+ animation-name: OKKk;animation-duration: 5s;
+ animation-iteration-count: infinite;
+ 
+ }
+/* ----+------+---- ANIMACIÓN ------+---------+------- */
+ @keyframes OKKk {
+ 0% {color: #FF0000;}
+ 20% {color: #FAFF00;}
+ 40% {color: #06FF00;}
+ 60% {color: #00FFF0;}
+ 80% {color: #001AFF;}
+ 90% {color: #FF00F5;}
+ 100% {color: #FF0000;}}
+/* ----+------+---- ANIMACIÓN ------+---------+------- */
+
+
+
+
+.TODOS {padding: 20px;}
+.TÍTULO {padding: 20px 17px; font-size: 50px; color: #17224D;}
+.NAVEGACION { display: flex; justify-content: flex-start;
+padding: 0px 0px 15px 0px; overflow: scroll;white-space: normal;}
+
+bts_ { font-size: 10px; display: block;}
+.Bts_ {text-align: center; padding: 10px 20px; margin: 5px;
+			 border: solid 2px #fff; border-radius: 30px;
+}
+
+
+
+/*  */
+.Título_Elem_Destac {
+text-align: center; color: #fff; font-size: 50px; overflow: hidden;}
+.Contenido_Destacados {background: #17224D; padding: 20px;
+overflow: hidden;position: relative;}
+/*  */
+
+.Elem_Image {display: flex; 
+justify-content: space-between; align-content: center;
+overflow: hidden; overflow: scroll; white-space: normal;
+}
+.Imag {width: 200px;margin: 10px;}
+
+.Imag_B {width: 270px;margin: 10px;}
+
+.Text_Ocult_Div {overflow: hidden;white-space: normal;width: 100%;}
+input {display: none;}
+.DESHACER_OCULTO {text-align: right; font-size: 35px;}
+.ver {
+	display: flex; align-content: center; 
+}
+
+
+
+.Contenido_Sky_Displey {
+				
+}
+
+
+
+
+
+/* ✖️✖️✖️BARRA DERECHA!!!!✖️✖️✖️ */
+.Sky_Oculto {
+
+/* max-width: 300px; justify-content: center; 
+display: block; 
+
+
+*/
+transition: left 5s; left: -350px; position: absolute; background: #b78;
+border-radius: 0px 30px 30px 0px; top: 0; padding: 20px; 
+
+
+}
+
+#Sky:checked + .Sky_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px;
+position: absolute; 
+border-radius: 0px 30px 30px 0px; top: 0; left: -5px;
+transition: left 5s;}
+
+.Ani_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px; 
+display: block; position: absolute;
+border-radius: 0px 30px 30px 0px; top: 0; left: -350px;
+transition: left 5s;}
+
+#Ani:checked + .Ani_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px;
+display: block; position: absolute; transition: left 5s;
+border-radius: 0px 30px 30px 0px; top: 0; left: -5px;}
+
+.gow_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px; 
+display: block; position: absolute;
+border-radius: 0px 30px 30px 0px; top: 0; left: -350px;
+transition: left 5s;}
+
+#GoW:checked + .gow_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px;
+display: block; position: absolute; transition: left 5s;
+border-radius: 0px 30px 30px 0px; top: 0; left: -5px;}
+
+.mario_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px; 
+display: block; position: absolute;
+border-radius: 0px 30px 30px 0px; top: 0; left: -350px;
+transition: left 5s;}
+
+#Marío:checked + .mario_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px;
+display: block; position: absolute; transition: left 5s;
+border-radius: 0px 30px 30px 0px; top: 0; left: -5px;}
+
+/* ✖️✖️✖️BARRA DERECHA!!!!✖️✖️✖️ */
+
+
+
+
+
+/* ✖️✖️✖️BARRA izquierda!!!!✖️✖️✖️ */
+.Cirber_Oculto {max-width: 300px; padding: 20px; 
+background: #b78; justify-content: center; 
+display: block; position: absolute;
+border-radius: 30px 0px 0px 30px; top: 0; right: -350px;
+transition: right 5s;}
+
+#Cirber:checked + .Cirber_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px;
+display: block; position: absolute; 
+border-radius: 30px 0px 0px 30px; top: 0; right: -5px;
+transition: right 5s;}
+
+.RR2_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px; 
+display: block; position: absolute; 
+border-radius: 30px 0px 0px 30px; top: 0; right: -350px;
+transition: right 5s;}
+
+#RR2:checked + .RR2_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px;
+display: block; position: absolute; transition: right 5s;
+border-radius: 30px 0px 0px 30px; top: 0; right: -5px;}
+
+.Spider_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px; 
+display: block; position: absolute;
+border-radius: 30px 0px 0px 30px; top: 0; right: -350px;
+transition: right 5s;}
+
+#Spider:checked + .Spider_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px;
+display: block; position: absolute; transition: right 5s;
+border-radius: 30px 0px 0px 30px; top: 0; right: -5px;}
+
+.Mine_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px; 
+display: block; position: absolute;
+border-radius: 30px 0px 0px 30px; top: 0; right: -350px;
+transition: right 5s;}
+
+#Mine:checked + .Mine_Oculto {
+max-width: 300px;
+background: #b78; justify-content: center; padding: 20px;
+display: block; position: absolute; transition: right 5s;
+border-radius: 30px 0px 0px 30px; top: 0; right: -5px;}
+
+/* ✖️✖️✖️BARRA Izquierda!!!!✖️✖️✖️ */
+
+
+
+
+
+
+
+li {list-style: none; background: green; }
+a {text-decoration: none; font-size: 20px; }
+.pie_Pag { background: #103011;padding: 30px; 
+color: #fff; text-align: center;}
+
+}
